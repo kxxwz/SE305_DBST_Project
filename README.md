@@ -4,13 +4,18 @@ Course Project for SE305 Database System Techniques
 ## Structure
 ```
 project
-│   README.md
-│      
+│   │
+└───README.md
+│   │
 └───code
 │   │   process_raw.ipynb
-│   │   Books.txt
-│   │   Pictures.txt
-│   │
+│   │   process_raw.py
+└───────output
+│   │   │   Books.txt
+│   │   │   Pictures.txt
+│   │   │   book_info
+│   │   │   pic_info
+│   │   │
 └───raw_data_sample
     │   book_content
     │   book_info
