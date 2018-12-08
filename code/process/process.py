@@ -21,7 +21,7 @@ def main():
     ###### Extract Book Info
     ######
     ###################
-    path = '../raw_data_sample/book_info'
+    path = '../data_sample/book_info'
     book_ids, book_names, languages, authors, b_urls = [], [], [], [], []
     missed = []
     decode_err = []
@@ -108,7 +108,7 @@ def main():
     ###### Extract Pic Info
     ######
     ###################
-    path = '../raw_data_sample/book_content'
+    path = '../data_sample/book_content'
     p_book_ids, chap_nums, p_urls, dep_words = [], [], [], []
     missed = []
     decode_err = []
