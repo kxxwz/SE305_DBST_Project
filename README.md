@@ -1,7 +1,7 @@
 # SE305 DBST Project
 Course Project for SE305 Database System Techniques
 
-## Structure
+## Directory
 ```bash
 .
 ├── LICENSE
@@ -26,19 +26,13 @@ Course Project for SE305 Database System Techniques
 └── data_sample
 ```
 
-## Entity
-- Book (**book\_id**, book\_name, author, b\_url, language)
+## ER Model
+![](ER.jpg)
 
-| book\_id | book\_name | author | b\_url | language |
-| :---: | :---: | :---: | :---: | :---: |
-| * | * | * | * | * |
-
-- Figure (book\_id, chap\_num, **p\_url**, desp_words)
-
-| book\_id | chap\_num | p\_url | desp_words |
-| :---: | :---: | :---: | :---: |
-| * | * | * | * |
-
+## Relational Model
+- **Book** (**book\_id**, author, title, book\_url)
+- **Picture** (**picture\_url**, description\_words)
+- **belong\_to** (**book\_id**, **picture\_url**, chapter\_number)
 
 ## Query
 
