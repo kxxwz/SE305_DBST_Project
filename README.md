@@ -2,23 +2,28 @@
 Course Project for SE305 Database System Techniques
 
 ## Structure
-```
-project
-│   │
-└───README.md
-│   │
-└───code
-│   │   process_raw.ipynb
-│   │   process_raw.py
-└───────output
-│   │   │   Books.txt
-│   │   │   Pictures.txt
-│   │   │   book_info
-│   │   │   pic_info
-│   │   │
-└───raw_data_sample
-    │   book_content
-    │   book_info
+```bash
+.
+├── LICENSE
+├── Project-Description.pdf
+├── README.md
+├── arxived_report
+├── code
+│   ├── build_MySQL_database
+│   │   ├── create_table.py
+│   │   ├── delete_table.py
+│   │   └── insert_item.py
+│   ├── crawler
+│   │   ├── crawl_book_content.py
+│   │   └── crawl_book_info.py
+│   ├── interface
+│   │   ├── default.png
+│   │   └── interface.py
+│   └── process
+│       ├── download_picture.py
+│       ├── output
+│       └── process.py
+└── data_sample
 ```
 
 ## Entity
